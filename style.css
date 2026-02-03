@@ -173,12 +173,6 @@ nav {
 
 /* TECH STACK */
 
-.language__list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
 .language__img {
   width: 100%;
   max-width: 100px;
@@ -192,6 +186,8 @@ nav {
 .language__img--wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 25px 16px;
 }
 
 .language__img:hover {
@@ -200,14 +196,8 @@ nav {
   transform: scale(0.9);
 }
 
-.language__img--wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 25px 16px;
-}
-
 .language__list {
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
 }
