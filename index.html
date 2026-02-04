@@ -13,19 +13,19 @@
       <nav>
         <div class="personal__logo">Katelyn Alaniz</div>
         <ul class="nav__link--list">
-          <li>
+          <li class="nav__link">
             <a href="" class="
             nav__link--anchor
-            link_hover-effect
+            link__hover-effect
             link__hover-effect--black">Languages</a>
           </li>
-          <li>
+          <li class="nav__link">
             <a href="" class="
             nav__link--anchor
-            link_hover-effect
+            link__hover-effect
             link__hover-effect--black">Project</a>
           </li>
-          <li>
+          <li class="nav__link">
             <a href="" class="
             nav__link--anchor
             nav__link--anchor-primary">Contact</a>
@@ -39,7 +39,7 @@
                 <img src="./assets/kma.jpg" class="about-me__picture" alt="Picture of me">
             </figure>
             <h1 class="about-me__info--title">
-                Hi, I'm <span class="text--purple">Katelyn Alaniz</span> 👋🏽
+                Hi, I'm <span class="text--purple">Katelyn Alaniz</span>&nbsp;<span class="wave">👋🏽</span>
             </h1>
             <p class ="about-me__info--para">
                 I'm a <strong class="text--purple">frontend software engineer</strong> specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building responsive user-friendly web applications.
@@ -161,10 +161,10 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   </p>
                   <div class="project__description--links">
-                    <a href="https://www.github.com/kmalaniz/portfolio-project.git" class="project__description--link">GitHub
+                    <a href="https://www.github.com/kmalaniz/portfolio-project.git" class="project__description--links">GitHub
                       <i class="fab fa-github"></i>
                     </a>
-                    <a href="https://github.com/kmalaniz/Portfolio-Project.git" class="project__description--link">GitHub36
+                    <a href="https://github.com/kmalaniz/Portfolio-Project.git" class="project__description--links">GitHub36
                       <i class="fab fa-link"></i>
                     </a>
                   </div>
@@ -219,30 +219,34 @@
     </section>
     <footer>
       <div class="row footer__row">
-        <a href="#"></a>
-          <figure>
+        <a href="#" class="footer__anchor">
+          <figure class="footer__logo"></figure>
             <img src="./assets/logo.svg" class="footer__logo--img" alt="">
           </figure>
+          <span class="footer__logo--popper">
+            Top 
+            <i class="fas fa-arrow-up"></i>
+          </span>
         </a>
       <div class="footer__social--list"> 
         <a href="https://www.google.com"  target="_blank" class="
         footer__social--link
-        link_hover-effect
+        link__hover-effect
         link__hover-effect--white
         " target="_blank">GitHub
         <a href="https://www.google.com" target="_blank" class="
         footer__social--link
-        link_hover-effect
+        link__hover-effect
         link__hover-effect--white
         " target="_blank">LinkedIn
         <a href="mailto:katelyn.cocha@gmail.com"target="_blank" class="
         footer__social--link
-        link_hover-effect
+        link__hover-effect
         link__hover-effect--white
         " target="_blank">Email
         <a href="assets/Example Resume.pdf" target="_blank" class="
         footer__social--link
-        link_hover-effect
+        link__hover-effect
         link__hover-effect--white
         " target="_blank" download>Resume
       </a>
